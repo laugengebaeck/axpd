@@ -8,7 +8,7 @@ checkbit(){
 rmmod -f battery
 modprobe i2c-dev 
 modprobe test_power
-for i in 4 12
+for i in 4 14
 do
 	if find /sys | grep axp288_charger | grep -q i2c-$i/
 	then
