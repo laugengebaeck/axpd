@@ -2,7 +2,7 @@
 Description=AXP288 Daemon
 
 [Service]
-ExecStart=/usr/libexec/axpd.sh
+ExecStart=/opt/axpd.sh
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
